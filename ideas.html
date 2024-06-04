@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form  class="form">
+        <label>
+            Player one choice:
+            <input class="pokemon1" type="text" name="pokemon-id" id="pokemon1">
+        </label>
+
+        <label>
+            Game choice:
+            <select name="choice" id="choice" class="choice">
+                <option value="player">Player two</option>
+                <option value="computer">Computer</option>
+            </select>
+        </label>
+        <div class="hidden">
+            <label>
+                Player Two Choice:
+                <input type="text" name="pokemon-id" id="pokemon2">
+            </label>
+        </div>
+        <button type="submit">Submit</button>
+
+    </form>
+    <main>
+        <h3 class="pokemon1-name"></h3>
+        <img class="pokemon1-image" src="https://placehold.co/300x300" height="300" width="300" />
+        <h3 class="pokemon2-name"></h3>
+        <img class="pokemon2-image" src="https://placehold.co/300x300" height="300" width="300" />
+        <section class="attack">
+            <article>
+                <h3 class="attack__effectiveness">
+                    ATTACK EFFECTIVENESS
+                </h3>
+                <p class="attack__effectiveness-answer">
+    
+                </p>
+            </article>
+            <article>
+                <h3 class="attack__stats">
+                    ATTACK STATS
+                </h3>
+                <p class="attack__stats-answer">
+    
+                </p>
+            </article>
+            <article>
+                <h3 class="attack__speed">
+                    ATTACK SPEED
+                </h3>
+                <p class="attack__speed-answer">
+    
+                </p>
+            </article>
+        </section>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
