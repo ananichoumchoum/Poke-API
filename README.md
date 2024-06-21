@@ -25,7 +25,7 @@ A simple web application built with HTML and JavaScript that allows users to sim
 ### Usage
 
 1. **Start the App**:
-    - Open `index.html` in your web browser.
+    - Open `idea.html` in your web browser.
 2. **Select Pokémon**:
     - Enter Pokémon names or IDs in the provided input fields.
 3. **Battle**:
