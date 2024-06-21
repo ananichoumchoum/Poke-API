@@ -13,7 +13,7 @@ A simple web application built with HTML and JavaScript that allows users to sim
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/yourusername/Poke-API.git
+    git clone https://github.com/ananichoumchoum/Poke-API.git
     ```
 2. **Navigate to the Project Directory**:
     ```bash
