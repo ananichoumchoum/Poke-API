@@ -20,21 +20,21 @@ A simple web application built with HTML and JavaScript that allows users to sim
     cd Poke-API
     ```
 3. **Open the Application**:
-    - Open `index.html` in your preferred web browser.
+    - Open `ideas.html` in your preferred web browser.
 
 ### Usage
 
 1. **Start the App**:
-    - Open `idea.html` in your web browser.
+    - Open `ideas.html` in your web browser.
 2. **Select Pokémon**:
     - Enter Pokémon names or IDs in the provided input fields.
 3. **Battle**:
-    - The dislay of the battle will be in the console log as the CSS has not yet been finalized for this application
+    - There will be a display of the battle points. The css was not made for this project yet so everything is very simple
 
 
 ## API Integration
 
 ### PokeAPI
 
-- **Endpoint**: `https://pokeapi.co/api/v2/pokemon/{id or name}`
+- **Endpoint**: `https://pokeapi.co/api/v2/type/${typeName}` 
 - **Purpose**: Fetch Pokémon data including stats, types, and abilities.
